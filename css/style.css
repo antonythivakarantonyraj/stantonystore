@@ -173,6 +173,10 @@
      padding: 0;
 }
 /**-- heading section --**/
+img.main-logo {
+    width: auto;
+    height: 110px;
+}
  .main_heading {
      text-align: center;
      display: flex;
@@ -355,7 +359,10 @@
      margin-left: 0;
      margin-left: 0;
 }
-
+.row.header-menu {
+    justify-content: center;
+    align-items: center;
+}
  
  .right_cart_section {
      float: right;
@@ -658,6 +665,13 @@
      -webkit-transform: scaleY(1);
      transform: scaleY(1);
 }
+
+.header-menu .menu-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
  .inner-cart {
      background: #38c8a8;
      border-radius: 2px;
@@ -979,13 +993,6 @@ width: 24%;
 }
 
 
-
-.slider_section {
-     padding: 90px 0;
-     background: #ececf0;
-}
-
-
  .padding_left0 {
     padding-left: 0px;
 }
@@ -1302,15 +1309,22 @@ display: block;
 .clients .titlepage h2 {
     color: #000;
 margin-bottom: -77px;
-text-align: right;
+text-align: center;
 }
-
+.content-wrap {
+    align-items: center;
+    padding: 0 25px;
+}
+.padding-top-70 {
+    padding-top: 70px;
+}
 .clients_red {
      background: #fff;
      padding-bottom: 50px;
      background: url(../images/test.png);
      min-height: 978px;
      background-repeat: no-repeat;
+     background-size: cover;
      display: flex;
      align-items: center;
      flex-wrap: wrap;
@@ -1474,7 +1488,6 @@ transition: all 0.3s ease-in;
 
 .logo_footer {
 border: #ddd solid 2px;
-padding: 11px 50px;
 display: inline-block;
 margin-bottom: 30px;
 }
